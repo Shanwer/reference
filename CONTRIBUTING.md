@@ -80,8 +80,9 @@ Contributing 贡献
 ## 本地开发
 
 ```bash
-$ git clone https://github.com/jaywcjlove/reference.git 
-$ npm i          # 安装依赖
+$ git clone https://github.com/jaywcjlove/reference.git
+$ cd reference   # cd到clone的仓库
+$ npm i          # 安装依赖，若出现warning请检查Node.js版本
 $ npm run build  # 编译输出 HTML
 $ npm run start  # 监听 md 文件编译输出 HTML
 ```
